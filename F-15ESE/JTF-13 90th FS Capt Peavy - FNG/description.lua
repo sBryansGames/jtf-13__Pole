@@ -109,7 +109,7 @@ livery = {
 
 
 --F-15E_REFUEL-DECAL	
-    {"F-15E_REFUEL-DECAL",	0,	                "F-15E_REFUEL_AF-91-0",				true};
+    {"F-15E_REFUEL-DECAL",	0,	                "REFUEL_AK-00-0",				false};
 
 
 --F-15E_REFUEL-NUMBER
@@ -117,19 +117,19 @@ livery = {
 
 
 --F-15E_TAIL-DECAL
-    {"F-15E_TAIL-DECAL",	0,	                "F-15E_TAIL_AF-91-0",				true};
+    {"F-15E_TAIL-DECAL",	0,	                "TAIL_AK-00-0",				false};
 	
 --F-15E_TAIL-DECAL-L	
     {"F-15E_TAIL-DECAL-L",	0,	                "F-15E_E06_A_COMBAT",					true};
 	{"F-15E_TAIL-DECAL-L",	1,	                "F-15e_E06_NRM",				true};
 	{"F-15E_TAIL-DECAL-L",	ROUGHNESS_METALLIC,	"F-15e_E06_A_RoughMet_COMBAT", 			true};
-    {"F-15E_TAIL-DECAL-L",	DECAL,	            "F-15E_TAIL_AF-91-0",			true};
+    {"F-15E_TAIL-DECAL-L",	DECAL,	            "TAIL_AK-00-0",			false};
 	
 --F-15E_TAIL-DECAL-R
     {"F-15E_TAIL-DECAL-R",	0,	                "F-15E_E06_A_COMBAT",					true};
 	{"F-15E_TAIL-DECAL-R",	1,	                "F-15e_E06_NRM",				true};
 	{"F-15E_TAIL-DECAL-R",	ROUGHNESS_METALLIC,	"F-15e_E06_A_RoughMet_COMBAT", 			true};
-    {"F-15E_TAIL-DECAL-R",	DECAL,	            "F-15E_TAIL_AF-91-0",			true};
+    {"F-15E_TAIL-DECAL-R",	DECAL,	            "TAIL_AK-00-0",			false};
 	
 --F-15E_TAIL-NUMBER                             
     {"F-15E_TAIL-NUMBER",	0,	                "F-15E_BLK_Numbers",			true};
@@ -155,7 +155,7 @@ livery = {
 	{"F-15EC_06",	1,	                "F-15E_EC06_NRM",				true};
 	{"F-15EC_06",	ROUGHNESS_METALLIC,	"F-15E_EC06_RoughMet", 			true};
 
-	{"F-15EC_07",	0,	                "Peavy_EC07A1",					false}; --black visor
+	{"F-15EC_07",	0,	                "Peavy_EC07A2",					false}; --gold visor
 	{"F-15EC_07",	1,	                "Peavy_EC07A1_NRM",				false};
 	{"F-15EC_07",	ROUGHNESS_METALLIC,	"Peavy_EC07A1_RoughMet", 		false};
 --    {"F-15EC_07",	DECAL,	            "F-15EC_07_Decal",			true};
@@ -169,7 +169,7 @@ livery = {
 	{"F-15EC_06R",	1,	                "F-15E_EC06_NRM",				true};
 	{"F-15EC_06R",	ROUGHNESS_METALLIC,	"F-15E_EC06_RoughMet", 			true};
 
-	{"F-15EC_07R",	0,	                "../Standard Helmets/90FS_RED_EC07A1",					false}; --black visor
+	{"F-15EC_07R",	0,	                "../Standard Helmets/90FS_RED_EC07A2",					false}; --gold visor
 	{"F-15EC_07R",	1,	                "../Standard Helmets/90FS_EC07A_NRM",				false};
 	{"F-15EC_07R",	ROUGHNESS_METALLIC,	"../Standard Helmets/90FS_EC07A_RoughMet", 			false};
 --    {"F-15EC_07R",	DECAL,	            "F-15EC_07_Decal",			true};
@@ -204,25 +204,25 @@ livery = {
 	{"F-15E_VR-Pilot3R",	ROUGHNESS_METALLIC,	"F-15E_TP3_RoughMet", 		true};
 
 --Visor
-	{"F-15EC_07_Visor",	0,	                "F-15E_EC07A1",					true}; --black
+	{"F-15EC_07_Visor",	0,	                "F-15E_EC07A2",					true}; --gold
 	{"F-15EC_07_Visor",	1,	                "F-15E_EC07A_NRM",				true};
 	{"F-15EC_07_Visor",	ROUGHNESS_METALLIC,	"F-15E_EC07A_RoughMet", 		true};
 
-	{"F-15EC_07R_Visor",	0,	                "F-15E_EC07A1",					true}; --black
+	{"F-15EC_07R_Visor",	0,	                "F-15E_EC07A2",					true}; --gold
 	{"F-15EC_07R_Visor",	1,	                "F-15E_EC07A_NRM",				true};
 	{"F-15EC_07R_Visor",	ROUGHNESS_METALLIC,	"F-15E_EC07A_RoughMet", 			true};
 }
 
 
 
-name = "JTF13 90th FS Capt Peavy - FNG" --91-0294
+name = "JTF13 90th FS Capt Peavy - FNG" --00-0888
 countries = {"USA"}
 
 custom_args = 
 {
-[32]   = 0.4, -- 1
-[31]   = 0.9, -- 10
-[442]  = 0.2, -- 100 
+[32]   = 0.8, -- 1
+[31]   = 0.8, -- 10
+[442]  = 0.8, -- 100 
 [1000] = 0.1, -- change of type of board number (0.0 - No Numbers, 0.1 - 3 Numbers, 0.2 - 4 Numbers starts with "1", 0.3 - Full 4 Numbers)
 [1001] = 0.1, -- vis refuel board number (0.0 - No Numbers, 0.1 Numbers, 0.2 - Numbers Early)
 [1002] = 0.0, -- change of type intake board number 
